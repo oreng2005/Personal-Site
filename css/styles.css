@@ -49,9 +49,12 @@ h1{
  }
 
  .content-writing{
-   position: absolute;
-   right: 32%;
-  bottom: 0;
+   margin:auto; /* Required */
+   position:absolute; /* Required */
+   bottom:0; /* Aligns at the bottom */
+   left:0;right:0; /* Aligns horizontal center */
+   max-height:100%; /* images bigger than 175 px  */
+   max-width:100%;  /* will be shrinked to size */
 
  }
 
