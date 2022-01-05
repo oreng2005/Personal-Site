@@ -5,6 +5,8 @@ body{
   color: #40514E;
 }
 
+
+
 h1{
   color: #66BFBF;
   font-family: 'Sacramento', cursive;
@@ -38,11 +40,13 @@ h1{
    color: #EAF6F6;
  }
  .top_container {
-   background-color: #D3DEDC;
+   background-color: #DFF4F3;
        padding-top: 100px;
        padding-bottom: 26%;
        position: relative;
  }
+
+
 
 
 
@@ -63,17 +67,6 @@ h1{
  }
 
 
-.bottom-cloud{
-
-
-}
-
-.top-cloud{
-  position: absolute;
- right: 250px;
- top: 0;
-
-}
 
 .skill-row{
   width: 50%;
@@ -83,6 +76,13 @@ h1{
   overflow: auto;
 }
 
+
+.programming{
+  width: 25%;
+  float: right;
+  margin-right: 30px;
+
+}
 .coding-img{
   width: 25%;
   float: left;
